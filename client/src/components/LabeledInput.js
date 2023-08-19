@@ -7,6 +7,7 @@ export default function LabeledInput({
   isRequired,
   change,
   value,
+  placeholder,
 }) {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function LabeledInput({
         required={isRequired}
         onChange={change}
         value={value}
+        placeholder={placeholder}
       />
     </div>
   );
